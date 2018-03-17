@@ -9,18 +9,24 @@ import java.util.Calendar;
 public class Viewer {
     public static void viewLadder(Ladder ladder, Students students) {
         StringBuilder builder = new StringBuilder();
-        builder.append("*************************************************** ");
+        builder.append("**************** ");
         builder.append(getTodayMessage());
         builder.append(", 오늘 내 짝꿍은 누구?");
-        builder.append(" ***************************************************\n\n");
-
+        builder.append(" ****************\n\n");
         builder.append(LadderViewBuilder.build(ladder, students));
+
         System.out.println(builder.toString());
     }
 
     public static void viewResult(Results results) {
-        String resultMessage = ResultViewBuilder.build(results);
-        System.out.println(resultMessage);
+        StringBuilder builder = new StringBuilder();
+        builder.append("************************** ");
+        builder.append("오늘의 짝꿍");
+        builder.append(" **************************\n");
+        builder.append(ResultViewBuilder.build(results));
+        builder.append("****************************************************************");
+
+        System.out.println(builder.toString());
     }
 
     private static String getTodayMessage() {
