@@ -1,6 +1,7 @@
-package domain;
+package utils;
 
 import org.junit.Test;
+import utils.LadderUtils;
 
 import static org.junit.Assert.assertEquals;
 

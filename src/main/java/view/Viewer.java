@@ -3,6 +3,8 @@ package view;
 import domain.Ladder;
 import domain.Results;
 import domain.Students;
+import utils.LadderViewBuilder;
+import utils.ResultViewBuilder;
 
 public class Viewer {
     public static void viewLadder(Ladder ladder, Students students) {

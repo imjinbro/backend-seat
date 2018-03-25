@@ -1,7 +1,9 @@
-package domain;
+package utils;
 
+import domain.Direction;
 import org.junit.Before;
 import org.junit.Test;
+import utils.LineCreator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

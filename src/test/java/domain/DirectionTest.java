@@ -1,8 +1,9 @@
 package domain;
 
 import org.junit.Test;
+import utils.DirectionType;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class DirectionTest {
 

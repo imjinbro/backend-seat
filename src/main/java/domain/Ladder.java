@@ -1,8 +1,10 @@
 package domain;
 
+import utils.LadderUtils;
+
 import java.util.ArrayList;
 
-import static domain.LineCreator.createLine;
+import static utils.LineCreator.createLine;
 
 public class Ladder {
     private static final int HEIGHT = 5;

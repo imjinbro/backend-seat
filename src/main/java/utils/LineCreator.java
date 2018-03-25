@@ -1,10 +1,13 @@
-package domain;
+package utils;
+
+import domain.Direction;
+import domain.Point;
 
 import java.util.ArrayList;
 
 public class LineCreator {
 
-    static ArrayList<Point> createLine(int pointNum) {
+    public static ArrayList<Point> createLine(int pointNum) {
         ArrayList<Integer> movablePositions = createMovablePositions(pointNum);
         ArrayList<Point> points = new ArrayList<>();
         for (int pos = 0; pos < pointNum; pos++) {

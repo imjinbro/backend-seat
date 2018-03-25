@@ -1,7 +1,6 @@
-package view;
+package utils;
 
 import domain.Ladder;
-import domain.LadderUtils;
 import domain.Student;
 import domain.Students;
 

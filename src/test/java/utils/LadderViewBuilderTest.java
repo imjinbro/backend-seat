@@ -1,6 +1,7 @@
-package view;
+package utils;
 
 import org.junit.Test;
+import utils.LadderViewBuilder;
 
 import static org.junit.Assert.*;
 

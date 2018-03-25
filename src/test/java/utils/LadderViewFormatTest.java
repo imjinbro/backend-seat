@@ -1,6 +1,7 @@
-package view;
+package utils;
 
 import org.junit.Test;
+import utils.LadderViewFormat;
 
 import static org.junit.Assert.assertEquals;
 
