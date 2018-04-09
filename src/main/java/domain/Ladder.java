@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import static utils.LineCreator.createLine;
 
 public class Ladder {
-    private static final int HEIGHT = 5;
+    private static final int HEIGHT = 15;
     private ArrayList<Line> ladder = new ArrayList<>();
 
     public Ladder(int playerNum) {
